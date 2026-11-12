@@ -1,0 +1,10 @@
+{
+  "name": "Remix Remix SignBridge AI - Indian Sign Language Interpreter",
+  "description": "Real-time AI-powered Indian Sign Language (ISL) interpreter featuring hand landmark tracking, gesture classification, sentence builder, text-to-speech, and dataset management.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

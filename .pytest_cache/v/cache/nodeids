@@ -1,0 +1,21 @@
+[
+  "backend/tests/test_api.py::test_dataset_summary_endpoint",
+  "backend/tests/test_api.py::test_health_check_endpoint",
+  "backend/tests/test_api.py::test_sentence_action_endpoint",
+  "backend/tests/test_api.py::test_settings_get_and_post",
+  "backend/tests/test_database.py::test_history_repository",
+  "backend/tests/test_database.py::test_sample_repository_crud",
+  "backend/tests/test_database.py::test_settings_repository",
+  "backend/tests/test_gesture_classifier.py::test_classifier_fit_save_and_predict",
+  "backend/tests/test_gesture_classifier.py::test_classifier_uninitialized_raises",
+  "backend/tests/test_landmark_extractor.py::test_empty_landmarks_handling",
+  "backend/tests/test_landmark_extractor.py::test_feature_extractor_angles",
+  "backend/tests/test_landmark_extractor.py::test_landmark_normalization_shape",
+  "backend/tests/test_landmark_extractor.py::test_scale_invariance",
+  "backend/tests/test_landmark_extractor.py::test_translation_invariance",
+  "backend/tests/test_sentence_builder.py::test_sentence_builder_add_and_format",
+  "backend/tests/test_sentence_builder.py::test_sentence_builder_clear",
+  "backend/tests/test_sentence_builder.py::test_sentence_builder_duplicate_suppression",
+  "backend/tests/test_sentence_builder.py::test_sentence_builder_manual_edit",
+  "backend/tests/test_sentence_builder.py::test_sentence_builder_remove_last"
+]

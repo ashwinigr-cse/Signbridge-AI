@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignBridge AI — Real-Time Indian Sign Language Interpreter</title>
+    <meta name="description" content="AI-powered Indian Sign Language (ISL) interpreter with real-time hand tracking, gesture classification, sentence builder, text-to-speech, and dataset training." />
+    <meta property="og:title" content="SignBridge AI — Real-Time Indian Sign Language Interpreter" />
+    <meta property="og:description" content="AI-powered Indian Sign Language (ISL) interpreter with real-time hand tracking, gesture classification, sentence builder, text-to-speech, and dataset training." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- MediaPipe Hands & Camera Utils for zero-lag in-browser hand tracking -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils@0.4/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands@0.4.1675469240/hands.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="bg-slate-950 text-slate-100 antialiased font-sans selection:bg-cyan-500/30 selection:text-cyan-200 min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
